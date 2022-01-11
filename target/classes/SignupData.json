@@ -1,0 +1,14 @@
+{
+  "gender": "male",
+  "firstName": "testFName",
+  "lastName": "testLName",
+  "DOB": "11-11-2001",
+  "emailId": "test@mailinator.com",
+  "username": "testUName",
+  "streetAddress": "test test 22222 test 222",
+  "postcode": "222322",
+  "city": "testcity",
+  "state": "Gujarat",
+  "country": "India",
+  "password": "testPass"
+}

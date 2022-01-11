@@ -1,0 +1,393 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-11T16:34:55.799Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14763000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Do Cart without authorisation",
+        "description": "",
+        "id": "order-page-tests;do-cart-without-authorisation",
+        "after": [
+          {
+            "result": {
+              "duration": 1630000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Home page without authorizations",
+            "match": {
+              "location": "StepDefinitions.HomeSteps.homePageWithoutAuthorizations()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 88000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on product menu",
+            "match": {
+              "location": "StepDefinitions.HomeSteps.userClickOnProductMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify that product submenu is appearing",
+            "match": {
+              "location": "StepDefinitions.HomeSteps.verifyThatProductSubmenuIsAppearing()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6171000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Select Games categories",
+            "match": {
+              "location": "StepDefinitions.HomeSteps.userSelectGamesCategories()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should navigate to product list page",
+            "match": {
+              "location": "StepDefinitions.ProductListSteps.userShouldNavigateToProductListPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 863000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User select last product from game list",
+            "match": {
+              "location": "StepDefinitions.ProductListSteps.userSelectLastProductFromGameList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 563000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify that last product added in cart",
+            "match": {
+              "location": "StepDefinitions.ProductListSteps.verifyThatLastProductAddedInCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6224000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on 1 product from list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.ProductListSteps.userClickOnProductFromList(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that user is on the same product detail page",
+            "match": {
+              "location": "StepDefinitions.ProductDetailSteps.verifyThatUserIsOnTheSameProductDetailPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify that user is able to see 4 product screenshots",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinitions.ProductDetailSteps.verifyThatUserIsAbleToSeeProductScreenshots(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User select 2 quantity",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinitions.ProductDetailSteps.userSelectQuantity(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click on Add to cart button",
+            "match": {
+              "location": "StepDefinitions.ProductDetailSteps.clickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Verify that cart has product \t \u003cb\u003eName\u003c/b\u003e:The Wheel Of Time\t \u003cb\u003ePrice\u003c/b\u003e:99.99\t \u003cb\u003eQty\u003c/b\u003e:1",
+              "verification pass successfully , Cart has product \t \u003cb\u003eName\u003c/b\u003e:The Wheel Of Time\t \u003cb\u003ePrice\u003c/b\u003e:99.99\t \u003cb\u003eQty\u003c/b\u003e:1",
+              "Verify that cart has product \t \u003cb\u003eName\u003c/b\u003e:Call Of Duty\t \u003cb\u003ePrice\u003c/b\u003e:79.98\t \u003cb\u003eQty\u003c/b\u003e:2",
+              "verification pass successfully , Cart has product \t \u003cb\u003eName\u003c/b\u003e:Call Of Duty\t \u003cb\u003ePrice\u003c/b\u003e:79.98\t \u003cb\u003eQty\u003c/b\u003e:2"
+            ],
+            "result": {
+              "duration": 624000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verify the cart data",
+            "match": {
+              "location": "StepDefinitions.CartSteps.verifyTheCartData()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1244000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User navigate to cart page",
+            "match": {
+              "location": "StepDefinitions.CartSteps.userNavigateToCartPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 227000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify all cart details on cart page",
+            "match": {
+              "location": "StepDefinitions.CartSteps.verifyAllCartDetailsOnCartPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1125000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User click on the checkout button",
+            "match": {
+              "location": "StepDefinitions.CartSteps.userClickOnTheCheckoutButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User should navigate to login page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.userShouldNavigateToLoginPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1719000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click on the registration button",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.userClickOnTheRegistrationButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User should navigate to Sign up page",
+            "match": {
+              "location": "StepDefinitions.SignUpSteps.userShouldNavigateToSignUpPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2648000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User fill all valid data and do registration",
+            "match": {
+              "location": "StepDefinitions.SignUpSteps.userFillAllValidDataAndDoRegistration()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2448000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User should navigate to order confirmation page",
+            "match": {
+              "location": "StepDefinitions.OrderConfirmationSteps.userShouldNavigateToOrderConfirmationPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 777000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click on confirm order button",
+            "match": {
+              "location": "StepDefinitions.OrderConfirmationSteps.userClickOnConfirmOrderButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should navigate to success screen",
+            "match": {
+              "location": "StepDefinitions.SuccessScreenSteps.userShouldNavigateToSuccessScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 882000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click on confirm button from success screen",
+            "match": {
+              "location": "StepDefinitions.SuccessScreenSteps.userClickOnConfirmButtonFromSuccessScreen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should navigate to my account page",
+            "match": {
+              "location": "StepDefinitions.MyAccountSteps.userShouldNavigateToMyAccountPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 104000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User is able to see order status as \"Pending\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pending\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinitions.MyAccountSteps.userIsAbleToSeeOrderStatusAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@addToCart"
+          }
+        ]
+      }
+    ],
+    "name": "Order page tests",
+    "description": "",
+    "id": "order-page-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/OrderPageTest.feature",
+    "tags": []
+  }
+]
