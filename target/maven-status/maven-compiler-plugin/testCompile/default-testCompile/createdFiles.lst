@@ -1,0 +1,13 @@
+StepDefinitions/OrderConfirmationSteps.class
+StepDefinitions/Log.class
+Runners/TestRunner.class
+StepDefinitions/SuccessScreenSteps.class
+StepDefinitions/MyAccountSteps.class
+StepDefinitions/LoginSteps.class
+StepDefinitions/ProductDetailSteps.class
+StepDefinitions/HomeSteps.class
+StepDefinitions/SignUpSteps.class
+StepDefinitions/CartSteps.class
+StepDefinitions/Hooks.class
+StepDefinitions/SearchSteps.class
+StepDefinitions/ProductListSteps.class

@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-01-11T16:34:55.799Z",
+        "start_timestamp": "2022-01-12T04:50:26.254Z",
         "before": [
           {
             "result": {
-              "duration": 14763000000,
+              "duration": 8715000000,
               "status": "passed"
             },
             "match": {
@@ -22,8 +22,9 @@
         "after": [
           {
             "result": {
-              "duration": 1630000000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d97.0.4692.71)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027L1123.local\u0027, ip: \u00272401:4900:1911:167f:88ee:cdfd:665d:8b67%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u00271.8.0_275\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /var/folders/cq/kq1r5w9s3l1...}, goog:chromeOptions: {debuggerAddress: localhost:50538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 985360572b831707970b6893cff904eb\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\n\tat StepDefinitions.Hooks.takeScreenShot(Hooks.java:66)\n\tat StepDefinitions.Hooks.tearDown(Hooks.java:59)\n",
+              "duration": 10000000,
+              "status": "failed"
             },
             "match": {
               "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -35,8 +36,9 @@
         "steps": [
           {
             "result": {
-              "duration": 86000000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d97.0.4692.71)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027L1123.local\u0027, ip: \u00272401:4900:1911:167f:88ee:cdfd:665d:8b67%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u00271.8.0_275\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /var/folders/cq/kq1r5w9s3l1...}, goog:chromeOptions: {debuggerAddress: localhost:50538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 985360572b831707970b6893cff904eb\n*** Element info: {Using\u003did, value\u003dsearch-input}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:39)\n\tat org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:165)\n\tat org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:61)\n\tat org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:95)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy22.isDisplayed(Unknown Source)\n\tat PageObject.HomePage.defaultHomePageIsDisplayed(HomePage.java:34)\n\tat StepDefinitions.HomeSteps.homePageWithoutAuthorizations(HomeSteps.java:22)\n\tat ✽.Home page without authorizations(file:///Users/nishant/Desktop/Modia_Framework/src/test/resources/features/OrderPageTest.feature:5)\n",
+              "duration": 8594000000,
+              "status": "failed"
             },
             "line": 5,
             "name": "Home page without authorizations",
@@ -47,8 +49,7 @@
           },
           {
             "result": {
-              "duration": 88000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "User click on product menu",
@@ -59,8 +60,7 @@
           },
           {
             "result": {
-              "duration": 28000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 7,
             "name": "verify that product submenu is appearing",
@@ -71,8 +71,7 @@
           },
           {
             "result": {
-              "duration": 6171000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 8,
             "name": "User Select Games categories",
@@ -83,8 +82,8 @@
           },
           {
             "result": {
-              "duration": 11000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 9,
             "name": "User should navigate to product list page",
@@ -95,8 +94,7 @@
           },
           {
             "result": {
-              "duration": 863000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 10,
             "name": "User select last product from game list",
@@ -107,8 +105,8 @@
           },
           {
             "result": {
-              "duration": 563000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 11,
             "name": "verify that last product added in cart",
@@ -119,8 +117,7 @@
           },
           {
             "result": {
-              "duration": 6224000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 12,
             "name": "User click on 1 product from list",
@@ -137,8 +134,7 @@
           },
           {
             "result": {
-              "duration": 28000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "Verify that user is on the same product detail page",
@@ -149,8 +145,7 @@
           },
           {
             "result": {
-              "duration": 12000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 14,
             "name": "Verify that user is able to see 4 product screenshots",
@@ -167,8 +162,7 @@
           },
           {
             "result": {
-              "duration": 105000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "User select 2 quantity",
@@ -185,8 +179,7 @@
           },
           {
             "result": {
-              "duration": 52000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "Click on Add to cart button",
@@ -196,15 +189,9 @@
             "keyword": "And "
           },
           {
-            "output": [
-              "Verify that cart has product \t \u003cb\u003eName\u003c/b\u003e:The Wheel Of Time\t \u003cb\u003ePrice\u003c/b\u003e:99.99\t \u003cb\u003eQty\u003c/b\u003e:1",
-              "verification pass successfully , Cart has product \t \u003cb\u003eName\u003c/b\u003e:The Wheel Of Time\t \u003cb\u003ePrice\u003c/b\u003e:99.99\t \u003cb\u003eQty\u003c/b\u003e:1",
-              "Verify that cart has product \t \u003cb\u003eName\u003c/b\u003e:Call Of Duty\t \u003cb\u003ePrice\u003c/b\u003e:79.98\t \u003cb\u003eQty\u003c/b\u003e:2",
-              "verification pass successfully , Cart has product \t \u003cb\u003eName\u003c/b\u003e:Call Of Duty\t \u003cb\u003ePrice\u003c/b\u003e:79.98\t \u003cb\u003eQty\u003c/b\u003e:2"
-            ],
             "result": {
-              "duration": 624000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 17,
             "name": "verify the cart data",
@@ -215,8 +202,7 @@
           },
           {
             "result": {
-              "duration": 1244000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "User navigate to cart page",
@@ -227,8 +213,8 @@
           },
           {
             "result": {
-              "duration": 227000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 19,
             "name": "Verify all cart details on cart page",
@@ -239,8 +225,8 @@
           },
           {
             "result": {
-              "duration": 1125000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 20,
             "name": "User click on the checkout button",
@@ -251,8 +237,7 @@
           },
           {
             "result": {
-              "duration": 18000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 21,
             "name": "User should navigate to login page",
@@ -263,8 +248,7 @@
           },
           {
             "result": {
-              "duration": 1719000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 22,
             "name": "User click on the registration button",
@@ -275,8 +259,7 @@
           },
           {
             "result": {
-              "duration": 21000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 23,
             "name": "User should navigate to Sign up page",
@@ -287,8 +270,7 @@
           },
           {
             "result": {
-              "duration": 2648000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 24,
             "name": "User fill all valid data and do registration",
@@ -299,8 +281,7 @@
           },
           {
             "result": {
-              "duration": 2448000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 25,
             "name": "User should navigate to order confirmation page",
@@ -311,8 +292,7 @@
           },
           {
             "result": {
-              "duration": 777000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 26,
             "name": "User click on confirm order button",
@@ -323,8 +303,7 @@
           },
           {
             "result": {
-              "duration": 53000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 27,
             "name": "User should navigate to success screen",
@@ -335,8 +314,7 @@
           },
           {
             "result": {
-              "duration": 882000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 28,
             "name": "User click on confirm button from success screen",
@@ -347,8 +325,7 @@
           },
           {
             "result": {
-              "duration": 24000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 29,
             "name": "User should navigate to my account page",
@@ -359,8 +336,8 @@
           },
           {
             "result": {
-              "duration": 104000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 30,
             "name": "User is able to see order status as \"Pending\"",

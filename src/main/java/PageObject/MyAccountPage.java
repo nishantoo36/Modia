@@ -39,7 +39,9 @@ public class MyAccountPage {
                     continue outer;
                 }
             }
-            tempCount = tempCount+1;
+            if(orderStatus.get(i).getText().equals(status)) {
+                tempCount = tempCount + 1;
+            }
         }
         return tempCount==orderCount;
     }
