@@ -39,7 +39,7 @@ public class MyAccountPage {
                     continue outer;
                 }
             }
-            if(orderStatus.get(i).getText().equals(status)) {
+            if(orderStatus.get(i).getText().equalsIgnoreCase(status)) {
                 tempCount = tempCount + 1;
             }
         }
